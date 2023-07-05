@@ -1,0 +1,10 @@
+{
+    "url": "https://raw.githubusercontent.com/delyura/ya_test/master/test.yaml?token=GHSAT0AAAAAACDLYS6JNXSW2YWY5C3XOD4CZFFRMQQ",
+    "urls": [{
+        "url": "https://raw.githubusercontent.com/delyura/ya_test/master/test.yaml?token=GHSAT0AAAAAACDLYS6JNXSW2YWY5C3XOD4CZFFRMQQ",
+        "name": "Foo"
+    },{
+        "url": "https://raw.githubusercontent.com/delyura/ya_test/master/test2.yaml?token=GHSAT0AAAAAACDLYS6I2ZWGLMNDMZ24CP7KZFFRN3Q",
+        "name": "Foo2"
+    }]
+}
