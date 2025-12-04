@@ -1,6 +1,6 @@
 swagger: "2.0"
 info:
-  description: "XSS test payload\"><script>alert('xss');</script>"
+  description: "XSS test payload\"><h1>test</h1>
   version: "1.0.0"
   title: "Swagger XSSstore\"><script>alert('xss');</script>"
 schemes:
