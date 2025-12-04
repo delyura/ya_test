@@ -1,0 +1,36 @@
+swagger: "2.0"
+info:
+  description: "XSS test payload\"><script>alert('xss');</script>"
+  version: "1.0.0"
+  title: "Swagger XSSstore\"><script>alert('xss');</script>"
+schemes:
+- "https"
+- "http"
+paths:
+  /xss:
+    get:
+      tags:
+      - "pet"
+      summary: "get XSS payload <script>alert(‘xss');</script>"
+      description: "\"><script>alert('xss');</script>"
+      operationId: "get"
+      consumes:
+      - "application/json"
+      - "application/xml"
+      produces:
+      - "application/xml"
+      - "application/json"
+      responses:
+        "200":
+          description: "\"><script>alert('xss');</script>"
+definitions:
+  string:
+    description: "String"
+    default: "\"><script>alert('xss');</script>"
+  XSSObject:  # move to/models/model.yml
+      type: object
+      description: xssobj
+      properties:
+        prop:
+          type: string
+          default: "\"><script>alert('xss');</script>"
